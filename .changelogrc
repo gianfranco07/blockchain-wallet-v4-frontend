@@ -1,34 +1,45 @@
 {
-  "app_name": "Blockchain Wallet V4",
-  "logo": "https://avatars1.githubusercontent.com/u/1777722?s=200&v=4",
-  "repo_url": "https://github.com/blockchain/blockchain-wallet-v4-frontend",
-  "file": "CHANGELOG.md",
-  "template": "",
-  "sections": [
-    {
-      "title": "Bug Fixes",
-      "grep": "^fix"
-    }, {
-      "title": "Features",
-      "grep": "^feat"
-    }, {
-      "title": "Documentation",
-      "grep": "^docs"
-    }, {
-      "title": "Refactor",
-      "grep": "^refactor"
-    }, {
-      "title": "Style",
-      "grep": "^style"
-    }, {
-      "title": "Copy",
-      "grep": "^copy"
-    }, {
-      "title": "Test",
-      "grep": "^test"
-    }, {
-      "title": "Chore",
-      "grep": "^chore"
+    "type": "payment",
+    "address": "rHkhZe3atYD3HfG4wh91DCu5HyU9jtK5Vo",
+    "sequence": 29,
+    "id": "5EC3CE0BE829157F79C7B84FA5FC5A58F0E76FD67FF746AD9CBDDC5D418D5676",
+    "specification": {
+        "source": {
+            "address": "rHkhZe3atYD3HfG4wh91DCu5HyU9jtK5Vo",
+            "maxAmount": {
+                "currency": "XRP",
+                "value": "19"
+            }
+        },
+        "destination": {
+            "address": "rw2ciyaNshpHe7bCHo4bRWq6pqqynnWKQg",
+            "tag": 4068394598
+        }
+    },
+    "outcome": {
+        "result": "tesSUCCESS",
+        "timestamp": "2019-07-24T08:18:40.000Z",
+        "fee": "0.000012",
+        "balanceChanges": {
+            "rHkhZe3atYD3HfG4wh91DCu5HyU9jtK5Vo": [
+                {
+                    "currency": "XRP",
+                    "value": "-19.000012"
+                }
+            ],
+            "rw2ciyaNshpHe7bCHo4bRWq6pqqynnWKQg": [
+                {
+                    "currency": "XRP",
+                    "value": "19"
+                }
+            ]
+        },
+        "orderbookChanges": [],
+        "ledgerVersion": 21258153,
+        "indexInLedger": 0,
+        "deliveredAmount": {
+            "currency": "XRP",
+            "value": "19"
+        }
     }
-  ]
 }
